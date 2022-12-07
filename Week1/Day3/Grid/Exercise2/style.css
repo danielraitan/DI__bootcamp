@@ -1,0 +1,43 @@
+#container{
+    border: 2px solid black;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(15, 1fr ) ;
+    grid-gap: 5px;
+    text-align: center;
+}
+.header{
+    background-color: aqua;
+    grid-column:3 span;
+}
+.hero{
+    background-color: purple;
+    grid-row: 2/6;
+}
+.main{
+    background-color:orange;
+    grid-row: 2/10;
+    grid-column:2 span;
+}
+.sidebar{
+    background-color: green;
+    grid-row: 6/14;
+}
+.extra{
+    background-color: grey;
+    grid-row: 10/14;
+    grid-column:2 span;
+}
+.related{
+    background-color: greenyellow;
+    grid-row: 14/16;
+    grid-column: 2 span;
+}
+.posts{
+    background-color: pink;
+    grid-row:14/16;
+}
+.footer{
+    background-color: orangered;
+    grid-column:1/4;
+}

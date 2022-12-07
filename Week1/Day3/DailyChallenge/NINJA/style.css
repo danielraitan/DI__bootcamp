@@ -1,0 +1,21 @@
+section{
+    display: grid;
+    grid-template-columns:repeat(12,1fr)
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+.lightgrey{
+    background-color: lightgray;
+}
+.grey{
+    background-color: gray;
+}
+.darkgrey{
+    background-color: rgb(81, 77, 77);
+}
+.black{
+    background-color: black;
+}

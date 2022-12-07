@@ -1,0 +1,30 @@
+.container{
+    
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1vw;
+    
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;
+    height: 20vh;
+    color: white;
+
+}
+.logo{
+    background-color:plum;
+   width: 10vw;
+}
+.team{
+    background-color: lightblue;
+    width: 60vw;
+ }
+ .products{
+    background-color: lightpink;
+    width: 50vw;
+ }

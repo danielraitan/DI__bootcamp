@@ -1,0 +1,14 @@
+.flag{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.blue{
+ background-color: blue;
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}

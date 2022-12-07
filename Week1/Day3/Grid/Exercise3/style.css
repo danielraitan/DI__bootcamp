@@ -1,0 +1,39 @@
+section{
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows:repeat(5,1fr) ;
+    gap: 5px;
+    text-align: center;
+}
+.one{
+    background-color: palevioletred;
+    grid-column:1/4 ;
+}
+.two{
+    background-color:blue ;
+    grid-row: 2/4;
+}
+.three{
+    background-color: lightblue;
+}
+.four{
+    background-color: aqua;
+}
+.five{
+    background-color: plum;
+    grid-column:2 span;
+    grid-row: ;
+}
+.six{
+    background-color: palevioletred;
+    grid-column:1/3 ;
+}
+.seven{
+    background-color:blue ;
+}
+.eight{
+    background-color: lightblue;
+    grid-column: 3 span;
+}
+   

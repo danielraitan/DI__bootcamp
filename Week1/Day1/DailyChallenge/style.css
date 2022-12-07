@@ -1,0 +1,39 @@
+body{
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: small;
+    width: 400px;
+}
+img{
+    width:1000px ;
+    height: 500px;
+}
+article{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.container{
+    position: relative;
+}
+nav{
+    float:left;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    margin-right: 10px;
+}
+ul li{
+  display: inline-block;
+  padding:10px;
+  font-size:20px; 
+  float: right;
+}
+
+
+  
+ 
